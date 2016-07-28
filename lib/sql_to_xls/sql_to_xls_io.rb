@@ -26,7 +26,7 @@ module SqlToXls
 
 		    xls_report = StringIO.new 
 		    file.write xls_report  
-	            xls_report.string 
+	        xls_report.string 
 		end
 
 	end
