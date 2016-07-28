@@ -1,7 +1,7 @@
 module SqlToXls
 	module SqlToXlsIo
 
-	    def init_sql(columns,sql)
+	    def init_sql(columns,sql,search_date = Time.now)
 		    # 解析SQL
 		    reports = execute_sql(sql)
 		    # 生成EXCELL
